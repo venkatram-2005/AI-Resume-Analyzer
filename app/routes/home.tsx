@@ -5,7 +5,7 @@ import { FaGithub, FaCircle, FaInfoCircle } from "react-icons/fa";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resumind" },
+    { title: "Job Sphere Resume Analyzer" },
     { name: "description", content: "Smart feedback for your dream job!" },
   ];
 }
@@ -51,5 +51,6 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
   </main>
 }
