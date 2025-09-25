@@ -32,7 +32,7 @@ export default function Home() {
     </section>
 
 
-    <div className="w-full mx-auto mt-5 text-center md:w-10/12">
+          <div className="w-full mx-auto mt-5 text-center md:w-10/12">
             <div className="relative z-0 w-full mt-8">
               <div className="relative overflow-hidden shadow-2xl">
                 <div className="flex items-center justify-between px-4 bg-gradient-to-r from-blue-800 to-blue-900 h-11 rounded-t-xl">
@@ -51,6 +51,13 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <footer className="bg-white" aria-labelledby="footer-heading">
+              <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 p-5 flex justify-between">
+                <p className="text-xs leading-5 text-gray-500">
+                   &copy; 2025 JobSphere. All rights reserved.
+                </p>
+              </div>
+           </footer>
           
   </main>
 }
