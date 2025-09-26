@@ -45,7 +45,7 @@ export default function Home() {
                 </div>
                 <img
                   className="object-cover py-2 px-4 rounded-b-lg transition duration-300 transform hover:scale-105"
-                  src="/heroSnapshot.png"
+                  src="/hero-SnapShot.png"
                   alt="Dashboard"
                 />
               </div>
