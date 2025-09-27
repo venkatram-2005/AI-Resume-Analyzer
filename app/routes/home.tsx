@@ -16,8 +16,8 @@ export default function Home() {
       {/* <Navbar /> */}
 
       <section className="main-section">
-        <div className="container px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 mx-auto">
-          <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white text-center mx-2 rounded-xl py-12 sm:py-16 px-4">
+        <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 mx-auto">
+          <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white text-center rounded-xl py-12 sm:py-16 px-4">
             <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-4">
               Upload Your Resume for AI-Powered Feedback
             </p>
@@ -36,6 +36,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
       {/* Snapshot Section */}
       <div className="w-full mx-auto mt-6 sm:mt-8 text-center md:w-10/12 px-4">
